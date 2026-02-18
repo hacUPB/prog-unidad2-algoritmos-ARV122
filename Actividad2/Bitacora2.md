@@ -15,6 +15,22 @@ Escribir "El valor total de los lápices es: ", valorTotal
 Fin
 ```
 
+**Diagrama de flujo**
+
+![Ejercicio2](images/Diagrama_de_flujo.drawio.png)
+
+**codigo** 
+
+```py
+nLapices = int(input("Ingresa la cantidad de lápices a comprar: "))
+
+if nLapices >= 1000:
+    total = 85 * nLapices
+else:
+    total = 90 * nLapices
+print("El valor de los lápices es: $", total)
+```
+
 # Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
 
 **Pseudocódigo:**
@@ -31,3 +47,6 @@ Escribir "El valor final de la compra es: $", valorFinal
 Escribir "El descuento fue de: $", descuento
 Fin
 ```
+
+**Diagrama de flujo** 
+
