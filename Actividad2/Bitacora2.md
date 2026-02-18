@@ -50,3 +50,43 @@ Fin
 
 **Diagrama de flujo** 
 
+![Ejercicio3](images/Diagrama_de_flujo2.drawio.png)
+
+**codigo** 
+```py
+valorCompra = int(input("Ingrese el valor de la compra: "))
+
+if valorCompra > 250000:
+    descuento = valorCompra * 0.15
+else:
+    descuento = valorCompra * 0.08
+
+valorFinal = valorCompra - descuento
+
+print("El valor final de la compra es:", valorFinal, "y el descuento aplicado fue de:", descuento)
+```
+### El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos
+
+**Pseudocódigo:**
+
+```pseudo
+Inicio
+Leer nAlumnos
+Si nAlumnos < 30
+    total = 4000
+    precio = total / nAlumnos
+Si no
+    Si nAlumnos < 50
+        precio = 95
+    Si no
+        Si nAlumnos < 100
+            precio = 70
+        Si no
+            precio = 65
+        Fin si
+    Fin si
+    total = precio * nAlumnos
+Fin si
+Escribir precio, total
+```
+
