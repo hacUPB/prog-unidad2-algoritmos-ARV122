@@ -95,32 +95,7 @@ El trabajo de George Bool permitió usar fácilmente los valores binarios en com
 
   $187_{10}=1011 1011_{2}$
 
-## Tipos de Datos
 
-### Diferentes tipos de datos que se utilizan en varios lenguajes de programación
-
-||Enteros|Punto Flotante|String|Booleano|Char|
-|-|------|--------------|------|--------|----|
-|Características Principales|Son números sin parte decimal|Representa números reales con parte decimal|Representa secuencias de caracteres o texto en programación|Almacena uno de dos valores: `true` o `false`|Representa un sólo carácter alfanumérico|
-|C y C++|`int`, `short`|`float`, `double`|`char[]`|`bool`|`char`|
-|Java|`int`, `long`|`float`, `double`|`String`|`boolean`|`char`|
-|Python|`int`|`float`|`str`|`bool`|NO|
-|JavaScript|NO|`Number`|`String`|`boolean`|NO|
-|C#|`int`, `short`, `long`|`float`, `double`|`string`|`bool`|`char`|
-|Swift|`Int`, `UInt`|`Float`, `Double`|`String`||`Character`|
-|Ruby|`Integer`|`Float`|`String`|`true`, `false`|`char`|
-|PHP|`int`|`float`, `double`|`string`|`bool`|`char`|
-
-[**Fuente**](https://www.apinem.com/tipos-de-datos-programacion)
-
-## Ejercicio de cálculo de espacio en memoria
-
-| |Identificador|Temperatura|Valor lógico|Texto de 10 caracteres|
-|-|-------------|-----------|------------|----------------------|
-|**Tipo de dato**|int|float|bool|char|
-|**Espacio requerido**|4B|4B|1B|10B|
-
-Espacio Total: ${19\text{B}}/\text{dato}$
 
 $1\text{ dato}/10\text{ s}=0.1\text{ datos}/\text{s}$
 
