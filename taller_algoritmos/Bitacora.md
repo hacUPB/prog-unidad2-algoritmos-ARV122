@@ -116,6 +116,8 @@ Inicio
     Escribir "Proceso de registro finalizado."
 Fin
 ```
+### diagrama de flujo 
+![Diagrama 3](images/Diagrama_flujo#3.drawio%20(1).png)
 
 # Control de combustible en pruebas
 # Durante un ensayo en banco de un motor a reacción, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operación antes de llegar a ese punto.
